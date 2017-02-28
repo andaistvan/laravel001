@@ -1,0 +1,15 @@
+{
+  "name": "laravel001",
+  "version": "1.0.0",
+  "description": "laravel elixir teszt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anda István",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-livereload": "^1.1.6"
+  }
+}

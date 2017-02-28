@@ -1,0 +1,23 @@
+description = "scripts"
+==
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+<!-- VENDOR FRAMEWORK.JS  -->
+<!-- THEME.JS : scripts INIT  -->
+<script src="{{ ['assets/compiled/js/all.js']|theme }}"></script>
+
+
+
+
+<!-- OCTOBER FRAMEWORK : AJAX etc.  -->
+{% framework extras %}
+
+
+<!-- ADDONS : wow, sticky.js etc.  -->
+{% partial "_addons/vendor-scripts-init" %}
+
+
+<!-- NOTES -->
+<!-- 'assets/js/materialize.min.js' -->
