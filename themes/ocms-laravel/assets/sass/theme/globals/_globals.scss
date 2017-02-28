@@ -7,10 +7,15 @@ body{
    max-width: 1600px;
    display: table;
    margin: 0 auto;
+   background: black;
    @extend .grey, .lighten-5;
 
 }
 
 .fullwidth{
    width: 100%;
+}
+
+h3{
+   color: red !important;
 }

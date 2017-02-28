@@ -11,4 +11,10 @@ elixir (function(mix){
       'materialize.min.js',
       'theme.js'
    ]);
+
+   mix.livereload([
+      'themes/ocms-laravel/assets/compiled/css/style.css',
+      'themes/ocms-laravel/**/*.htm',
+      'themes/ocms-laravel/assets/compiled/js/all.js',
+   ])
 })
